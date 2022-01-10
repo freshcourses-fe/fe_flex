@@ -1,0 +1,30 @@
+Включекние флексов:
+  display: flex;
+
+Категории флекс свойств
+  1. Для родительских элементов (контейнера)
+ 
+  установка направления главной оси
+  flex-direction: row* | column | row-reverse | column-reverse;
+
+  определяет расопложение эелементов вдоль ГЛАВНОЙ ОСИ
+  justify-content: flex-start* | flex-end | center | space-between | space-around | space-evenly ;
+
+
+  определяет расопложение эелементов вдоль ПОПЕРЕЧНОЙ ОСИ
+  align-items: flex-start | flex-end | center | baseline | stretch*  ;
+  
+  перенос на новую строку при переполнении контейнера
+  flex-wrap: nowrap* | wrap | wrap-reverse;
+  
+  
+  flex-start | flex-end | center | space-between | space-around | stretch
+  
+  Управляет пространствоми между несколькими группами элементов (строками или столбцами)
+  не работает если группа только одна
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch
+  
+  Сокращенная запись для свойств flex-direction и flex-wrap
+  flex-flow: <flex-direction> <flex-wrap>;
+
+  2.Для дочерних элементов
