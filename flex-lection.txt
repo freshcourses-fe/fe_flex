@@ -21,10 +21,22 @@
   flex-start | flex-end | center | space-between | space-around | stretch
   
   Управляет пространствоми между несколькими группами элементов (строками или столбцами)
-  не работает если группа только одна
+  не работает если группа только одна, 
+  если значение не равно stretch то align-items не работает (ему не дают свободного места )
   align-content: flex-start | flex-end | center | space-between | space-around | stretch
   
   Сокращенная запись для свойств flex-direction и flex-wrap
   flex-flow: <flex-direction> <flex-wrap>;
 
   2.Для дочерних элементов
+
+
+  порядок флекс элементов (от меньшего к большему)
+  order: <целое число>;
+
+  align-self;
+
+
+  flex-basis;
+  flex-grow;
+  flex-shrink;
