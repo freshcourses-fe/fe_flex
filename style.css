@@ -4,56 +4,40 @@
   box-sizing: border-box;
 }
 
-
-
-.container {
+body {
+  min-height: 100vh;
   display: flex;
-
-  /* flex-direction: row;
-  flex-wrap: wrap-reverse; */
-
-  flex-flow: row nowrap;
-
-  align-items: stretch;
-  
-  
-  border: 5px solid green;
-  min-height: 60vh;
-  /* max-height: 100vh; */
+  flex-direction: column;
+ 
 }
 
-.card {
-  /* flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 150px; */
-
-  flex: 1 0 150px;
-
-  border: 5px solid black;
-  background-color: gray;
+.header {
+  background-color: turquoise; 
   text-align: center;
-  font-size: 2em;
 }
 
-.flexItem {
- /* flex-grow: 2;
- flex-shrink: 2; */
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
 
-.flexItem2 {
-  /* order: -1; */
-}
-/* 
-.second {
-  margin-left: auto;
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.first {
-  margin: auto;
-} */
+article {
+  border: 5px solid;
+  border-radius: 10px;
+  text-align:  center;
+}
 
-/* 
-  flex-flow: column-reverse wrap-reverse;
-  
-  justify-content: space-between;
-  align-content: center; */
+.footer {
+  padding: 20px 40px;
+  background-color: tomato;
+  text-align: center;
+  /* margin-top: auto; */
+}
