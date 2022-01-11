@@ -38,9 +38,28 @@
   align-self: auto* | flex-start | flex-end | center | baseline | stretch;
 
 
-  flex-basis;
+  Потенциальный основной размер элемента
+  flex-basis: < px| em | vw | % ...>;
 
+  content <= width/height  <= flex-basis <= max-width  <= min-width 
 
-  
-  flex-grow;
-  flex-shrink;
+  Коэффициент роста элементов
+  flex-grow <число>; по умолчанию 0
+
+  193.2
+
+    элементы      свободно    всего
+
+  5 * 40 = 200     766          966
+  ===================================
+  40 + 1 * 127.67
+  40 + 1 * 127.67
+  40 + 2 * 127.67
+  40 + 1 * 127.67
+  40 + 1 * 127.67
+
+Коэффициент сжатия элементов
+  flex-shrink: <число>; по умолчанию 1
+
+Сокращение для flex-grow, flex-shrink и flex-basis
+  flex: <flex-grow> <flex-shrink> <flex-basis>;
