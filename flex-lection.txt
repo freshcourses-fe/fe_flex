@@ -34,9 +34,13 @@
   порядок флекс элементов (от меньшего к большему)
   order: <целое число>;
 
-  align-self;
+  align-items для конкретного элемента, с более высоким приоритетоом
+  align-self: auto* | flex-start | flex-end | center | baseline | stretch;
 
 
   flex-basis;
+
+
+  
   flex-grow;
   flex-shrink;

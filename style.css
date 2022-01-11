@@ -4,6 +4,8 @@
   box-sizing: border-box;
 } */
 
+
+
 .container {
   display: flex;
 
@@ -12,7 +14,7 @@
 
   flex-flow: row wrap;
 
-
+  align-items: stretch;
   
   
   border: 5px solid green;
@@ -30,10 +32,11 @@
 }
 
 .flexItem {
-  order: 1;
+  align-self: center;
 }
+
 .flexItem2 {
-  order: -1;
+  /* order: -1; */
 }
 /* 
 .second {
